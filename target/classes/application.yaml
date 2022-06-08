@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: aws
+  datasource:
+    url: jdbc:mysql://localhost:3306/aws
+    username: blistered
+    password: 772Blistered!
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
